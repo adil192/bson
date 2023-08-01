@@ -127,6 +127,8 @@ abstract class BsonObject {
       return BsonUuid(value);
     } else if (value is Timestamp) {
       return BsonTimestamp(value);
+    } else if (value is Uint8List) {
+      return BsonBinary.from(value);
     } else {
       return BsonObject.bsonObjectFrom(value.toJson());
     }
