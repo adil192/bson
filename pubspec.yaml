@@ -11,12 +11,12 @@ dependencies:
   fixnum: ^1.0.0
   decimal: ^2.3.0
   rational: ^2.2.0
-  uuid: ^3.0.0
+  uuid: ^4.1.0
   packages_extensions: ^0.1.0
   power_extensions: ^0.2.0
 
 
 dev_dependencies:
   test: ^1.16.4
-  lints: ^2.0.0
+  lints: ^3.0.0
 
